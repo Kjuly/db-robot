@@ -4,6 +4,9 @@ from framework.bottle import Bottle, run, request, response
 from framework.bottle import route, template, request, error, debug
 #from google.appengine.ext.webapp.util import run_wsgi_app
 
+#from framework.douban_client import DoubanClient
+from framework.douban_client import DoubanClient
+
 bottle = Bottle()
 
 @bottle.route('/')
