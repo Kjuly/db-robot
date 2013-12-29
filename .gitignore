@@ -4,3 +4,5 @@
 .*.sw[po]
 *.pyc
 
+config.py
+
